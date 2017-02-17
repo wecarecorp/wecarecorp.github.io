@@ -39,7 +39,7 @@ a:hover,a:active{
 
 .box-style-1 > .primary-bg:hover,
 .box-style-2 > .primary-bg:hover{
-    background: #2b7b63;
+    background: #0e80c4;
     transition: all 0.3s ease-in-out 0s;
 }
 
@@ -65,7 +65,7 @@ a:hover,a:active{
     transition : color 0.2s ease-in;
 }
 #main-navigation.scrolled .nav li.menu-alt a{
-    background: #3fb490 !important;
+    background: #24394c !important;
     color: #fff !important;
 
 }
@@ -93,31 +93,26 @@ a:hover,a:active{
         border-bottom: 7px solid transparent;
         border-bottom: 7px solid transparent;
     }
-}
 
+
+}
+.video-overlay{
+    background-image: linear-gradient(to bottom, rgba(43, 60, 64, 0.8), rgba(43, 60, 64, 0.8));
+    background-image: -moz-linear-gradient(top, rgba(43, 60, 64, 0.8), rgba(43, 60, 64, 0.8));
+    background-image: -o-linear-gradient(top, rgba(43, 60, 64, 0.8), rgba(43, 60, 64, 0.8));
+    background-image: -webkit-linear-gradient(top, rgba(43, 60, 64, 0.8), rgba(43, 60, 64, 0.8));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 #main-banner.secondary-overlay{
-    background: url('../images/image_bg_index.jpg') center center no-repeat;
+    background-image: linear-gradient(to bottom, rgba(43, 60, 64, 0.3), rgba(43, 60, 64, 0.3)), url('../images/image_bg_02.jpg');
+    background-image: -moz-linear-gradient(top, rgba(43, 60, 64, 0.3), rgba(43, 60, 64, 0.3)), url('../images/image_bg_02.jpg');
+    background-image: -o-linear-gradient(top,rgba(43, 60, 64, 0.3), rgba(43, 60, 64, 0.3)), url('../images/image_bg_02.jpg');
+    background-image: -webkit-linear-gradient(top, rgba(43, 60, 64, 0.3), rgba(43, 60, 64, 0.3)), url('../images/image_bg_02.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    height: 500px;
-    margin-top: 4em;
-}
-
-#main-banner.video-overlay{
-    background: url('../images/image_bg_recompensas.jpg') center center no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 600px;
-    margin-top: 4em;
-}
-
-@media screen and (max-width: 960px) {
-    #main-banner.secondary-overlay{
-        background-attachment: initial;
-        background-position: left center;
-        height: 400px;
-        margin-top: 4em;
-    }
+    background-position: center center;
 }
 
 #video.secondary-overlay{
@@ -190,6 +185,3 @@ a:hover,a:active{
 
 }
 
-.cycle {
-    background-color: #3fb490;
-}

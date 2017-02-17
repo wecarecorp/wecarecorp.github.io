@@ -762,13 +762,13 @@ BUTTONS
     text-transform: uppercase;
 }
 .btn-ghost-default{
-    border: 2px solid #3fb490 !important;
-    color: #3fb490;
+    border: 2px solid #fff !important;
+    color: #fff;
 }
 .btn-ghost-default:hover,
 .btn-ghost-default:active,
 .btn-ghost-default:focus{
-    color: #72ceb1;
+    color: #fff;
 }
 .btn-ghost-black{
     border: 2px solid #777777 !important;
@@ -815,6 +815,7 @@ NAVIGATION
     transition : all 0.2s ease-in;
 }
 #main-navigation .navbar-brand img{
+    margin-top: -20px;
 }
 #main-navigation .nav,
 #main-navigation .collapse,
@@ -989,11 +990,7 @@ CONTENTS
 
 }
 #main-banner .banner-info{
-    text-align: center;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-    position: absolute;
+    padding: 20% 0;
 }
 
 #main-banner .banner-content img{

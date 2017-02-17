@@ -5,7 +5,7 @@ jQuery(function($) {
 	Page Preloader
     ==============================================*/
     $(window).on('load', function () {
-        $('#page-loader').fadeOut(400);
+        $('#page-loader').fadeOut(500);
     });
     /*============================================
 	Navigation Functions
@@ -22,6 +22,27 @@ jQuery(function($) {
         });
     }
     
+    //menu resizing on hover
+    if ($(window).scrollTop()< ($(window).height()-450)){
+        $('#main-navigation').removeClass('scrolled');
+        $('.navbar-brand img').attr('src','images/logo.png');
+    }
+    else{
+        $('#main-navigation').addClass('scrolled'); 
+        $('.navbar-brand img').attr('src','images/logo-alt.png');
+    }
+
+    $(window).on('scroll', function () {
+        if ($(window).scrollTop()< ($(window).height()-450)){
+            $('#main-navigation').removeClass('scrolled');
+            $('.navbar-brand img').attr('src','images/logo.png');
+        }
+        else{
+            $('#main-navigation').addClass('scrolled'); 
+            $('.navbar-brand img').attr('src','images/logo-alt.png');
+        }
+    });
+    
     /*============================================
 	Video Player
      ==============================================*/
@@ -29,30 +50,24 @@ jQuery(function($) {
     {
         $('.virtual-video').mediaelementplayer({
             alwaysShowControls: false
-        });
+        }
+
+        );
     }
     /*============================================
 	Video Background
      ==============================================*/
     if ($('.video-background').length)
     {
-		if ($(window).width() > 960) {
-            $('.main-banner-recompensas-alt').hide();
-            $('.main-banner-recompensas').show();
-            $('.video-background').videoBG({
-                mp4:'assets/videos/laptop-video.mp4',
-                ogv:'assets/videos/laptop-video.ogv',
-                webm:'assets/videos/laptop-video.webm',
-                poster:'assets/videos/laptop-video.png',
-                scale:true,
-                zIndex:0
-            });
-        }
-
-        else {
-            $('.main-banner-recompensas').hide();
-            $('.main-banner-recompensas-alt').show();
-        }	   
+					   
+        $('.video-background').videoBG({
+            mp4:'assets/videobg/assets/laptop-video.mp4',
+            ogv:'assets/videobg/assets/laptop-video.ogv',
+            webm:'assets/videobg/assets/laptop-video.webm',
+            poster:'assets/videobg/assets/laptop-video.png',
+            scale:true,
+            zIndex:0
+        });
     }
     
     

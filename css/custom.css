@@ -230,3 +230,39 @@
   height: 150px !important;
   margin: 0 auto;
 }
+
+/* CTA */
+
+.cta-conteudo {
+  padding: 3em 0.5em;
+  background: url('../images/rotatividade11.png') center center no-repeat;
+  text-align: center;
+}
+
+.cta-conteudo h2, .cta-conteudo p, .cta-recompensas h2, .cta-recompensas p {
+  color: #fff;
+}
+
+.cta-conteudo h2, .cta-recompensas h2 {
+  font-weight: 500;
+}
+
+.cta-recompensas h2 {
+  text-shadow: 0px 0px 24px #585858
+}
+
+.cta-recompensas p {
+  text-shadow: 0px 0px 8px #585858;
+}
+
+.cta-recompensas {
+  padding: 4em 0.5em;
+  background: url('../images/desktop.jpg') center center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.btn-cta:hover {
+  background-color: #fff;
+  color: #333;
+}

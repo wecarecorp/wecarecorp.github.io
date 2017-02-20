@@ -217,6 +217,15 @@
   text-align: center;
 }
 
+.box-style-2 figure, .how-logo {
+  transition: all 0.5s;
+}
+
+.box-style-2 figure:hover, .how-logo:hover {
+  margin-top: -1em;
+  margin-bottom: 1em;
+}
+
 .how-logo {
   height: 150px !important;
   margin: 0 auto;

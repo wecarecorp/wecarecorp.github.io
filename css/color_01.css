@@ -67,8 +67,12 @@ a:hover,a:active{
 #main-navigation.scrolled .nav li.menu-alt a{
     background: #3fb490 !important;
     color: #fff !important;
-
 }
+
+#main-navigation.scrolled .nav li.menu-alt a:hover{
+    background: #318c70 !important;
+}
+
 #main-navigation .navbar-toggle {
 
     border: 2px solid #24394c !important;

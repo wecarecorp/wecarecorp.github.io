@@ -239,11 +239,13 @@
   text-align: center;
 }
 
-.cta-conteudo h2, .cta-conteudo p, .cta-recompensas h2, .cta-recompensas p {
+.cta-conteudo h2, .cta-conteudo p, 
+.cta-recompensas h2, .cta-recompensas p,
+.cta-demo h2, .cta-demo p {
   color: #fff;
 }
 
-.cta-conteudo h2, .cta-recompensas h2 {
+.cta-conteudo h2, .cta-recompensas h2, .cta-demo h2 {
   font-weight: 500;
 }
 
@@ -265,4 +267,9 @@
 .btn-cta:hover {
   background-color: #fff;
   color: #333;
+}
+
+.cta-demo {
+  padding: 4em 0.5em; 
+  text-align: center;
 }

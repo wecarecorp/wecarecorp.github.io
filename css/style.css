@@ -989,11 +989,11 @@ CONTENTS
 
 }
 #main-banner .banner-info{
-    text-align: center;
+/*    text-align: center;
     width: 100%;
     top: 50%;
     transform: translateY(-50%);
-    position: absolute;
+    position: absolute;*/
 }
 
 #main-banner .banner-content img{
@@ -1513,7 +1513,8 @@ INNER PAGES
 
 }
 #inner-banner .banner-heading{
-    padding: 150px 0px;
+    padding: 13em 0;
+    height: 100px;
 }
 #inner-banner .breadcrumbs{
     width: 100%;
@@ -2163,7 +2164,7 @@ RESPONSIVE STYLES
         padding-bottom: 10px;
     }
     #main-navigation.scrolled .navbar-nav li a,#main-navigation.scrolled .navbar-nav li a:hover{
-        color: #fff;
+        color: #24394C;
     }
     #main-navigation .navbar-nav li:last-child{
         border-bottom: none !important;

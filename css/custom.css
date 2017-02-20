@@ -93,9 +93,14 @@
 
 .cycle p {
   margin: 0 auto;
-  width: 700px;
   color: #212121;
   font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .cycle p {
+    max-width: 700px;
+  }
 }
 
 .image-wrapper {
@@ -118,14 +123,20 @@
 
 #how .description {
   margin: 0 auto;
-  width: 700px;
   color: #212121;
   font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  #how .description {
+    max-width: 700px;
+  }
 }
 
 .how-box {
   text-align: center;
   margin: 1em 0;
+  padding: 0;
 }
 
 .how-box h5 {
@@ -165,10 +176,6 @@
     color: #fff;
 }
 
-.recompensas-banner {
-  padding-top: 6em;
-}
-
 #main-features-r h2, #promotional h2, #testimonials h2 {
   font-weight: 500;
   color: #fff;
@@ -176,6 +183,22 @@
 
 #main-features-r h2, #testimonials h2 {
   color: #212121;
+}
+
+.banner-info {
+  padding-top: 6em;
+}
+
+@media screen and (min-width: 900px) {
+  .banner-info {
+    position: absolute;
+    padding: 0;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding-top: 8em;
+  }
 }
 
 .body-r h5 {

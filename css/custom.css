@@ -271,3 +271,7 @@
   padding: 4em 0.5em; 
   text-align: center;
 }
+
+#footer h5 {
+  font-weight: 500 !important;
+}

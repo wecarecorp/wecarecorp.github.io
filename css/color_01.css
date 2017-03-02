@@ -100,7 +100,9 @@ a:hover,a:active{
 }
 
 #main-banner.secondary-overlay{
-    background: url('../images/image_bg_index.jpg') center center no-repeat;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/image_bg_index.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     height: 500px;

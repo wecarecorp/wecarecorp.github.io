@@ -110,10 +110,10 @@ a:hover,a:active{
 }
 
 #main-banner.video-overlay{
-    background: url('../images/image_bg_recompensas.jpg') center center no-repeat;
+    background: url('../images/balao.jpg') center center no-repeat;
     background-size: cover;
     position: relative;
-    height: 600px;
+    height: 575px;
     margin-top: 4em;
 }
 

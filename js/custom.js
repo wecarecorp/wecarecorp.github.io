@@ -37,20 +37,22 @@ jQuery(function($) {
     if ($('.video-background').length)
     {
 		if ($(window).width() > 960) {
-            $('.main-banner-recompensas-alt').hide();
-            $('.main-banner-recompensas').show();
-            $('.video-background').videoBG({
-                mp4:'assets/videos/laptop-video.mp4',
-                ogv:'assets/videos/laptop-video.ogv',
-                webm:'assets/videos/laptop-video.webm',
-                poster:'assets/videos/laptop-video.png',
-                scale:true,
-                zIndex:0
-            });
+            // $('.main-banner-recompensas-alt').hide();
+            $('.main-banner-recompensas-alt').show();
+            $('.main-banner-recompensas').hide();
+            // $('.main-banner-recompensas').show();
+            // $('.video-background').videoBG({
+            //     mp4:'assets/videos/laptop-video.mp4',
+            //     ogv:'assets/videos/laptop-video.ogv',
+            //     webm:'assets/videos/laptop-video.webm',
+            //     poster:'assets/videos/laptop-video.png',
+            //     scale:true,
+            //     zIndex:0
+            // });
         }
 
         else {
-            $('.main-banner-recompensas').hide();
+            // $('.main-banner-recompensas').hide();
             $('.main-banner-recompensas-alt').show();
         }	   
     }

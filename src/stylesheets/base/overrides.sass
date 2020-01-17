@@ -1,0 +1,46 @@
+.btn
+  padding: .375rem 1rem
+  border-radius: 40px
+  font-weight: 600
+
+.btn-warning, .btn-warning:hover
+  color: $color-white
+
+.btn-success
+  background-color: $color-green
+  border-color: $color-green
+
+  &:hover
+    background-color: #1b8f76
+
+.btn-outline-success
+  color: $color-green
+  border-color: $color-green
+
+  &:hover
+    color: $color-white
+    background-color: $color-green
+
+.form-group
+  padding-bottom: 1em
+
+.form-control
+  &:focus
+    border: 1px solid $color-green
+    box-shadow: none
+
+  &:invalid:focus, &:valid:focus
+    box-shadow: none !important
+
+.nav-link
+  font-weight: 500
+
+.modal-header, .modal-footer
+  border: none
+
+@media screen and (max-width: 767px)
+  .navbar-nav
+    padding-bottom: 1em
+    
+    .btn
+      margin-left: 0 !important

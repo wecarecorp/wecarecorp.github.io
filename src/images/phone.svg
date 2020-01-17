@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="39" viewBox="0 0 50 39">
+  <g id="Grupo_685" data-name="Grupo 685" transform="translate(-691 -439)">
+    <rect id="Retângulo_424" data-name="Retângulo 424" width="50" height="39" transform="translate(691 439)" fill="#fff"/>
+    <g id="Grupo_682" data-name="Grupo 682">
+      <g id="Grupo_678" data-name="Grupo 678" transform="translate(0 59)">
+        <circle id="Elipse_23" data-name="Elipse 23" cx="18.5" cy="18.5" r="18.5" transform="translate(691 381)" fill="#4b9f87"/>
+      </g>
+      <path id="phone-solid" d="M26.16,1.295,20.644.022a1.281,1.281,0,0,0-1.459.737L16.639,6.7a1.27,1.27,0,0,0,.366,1.485l3.214,2.631a19.657,19.657,0,0,1-9.4,9.4L8.19,17A1.272,1.272,0,0,0,6.7,16.633L.765,19.179a1.288,1.288,0,0,0-.743,1.464l1.273,5.516a1.273,1.273,0,0,0,1.241.987,24.608,24.608,0,0,0,24.61-24.61A1.271,1.271,0,0,0,26.16,1.295Z" transform="translate(697.055 449.521) rotate(-16)" fill="#187d67"/>
+      <path id="phone-solid-2" data-name="phone-solid" d="M24.169,1.2,19.073.019A1.184,1.184,0,0,0,17.725.7L15.373,6.189a1.173,1.173,0,0,0,.338,1.372l2.97,2.431A18.162,18.162,0,0,1,10,18.675l-2.431-2.97a1.175,1.175,0,0,0-1.372-.338L.706,17.72a1.19,1.19,0,0,0-.686,1.353l1.176,5.1a1.176,1.176,0,0,0,1.147.911A22.736,22.736,0,0,0,25.081,2.342,1.175,1.175,0,0,0,24.169,1.2Z" transform="translate(700.041 448.952) rotate(-16)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

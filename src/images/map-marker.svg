@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="39" viewBox="0 0 50 39">
+  <g id="Grupo_686" data-name="Grupo 686" transform="translate(-691 -496)">
+    <rect id="Retângulo_425" data-name="Retângulo 425" width="50" height="39" transform="translate(691 496)" fill="#fff"/>
+    <g id="Grupo_683" data-name="Grupo 683">
+      <g id="Grupo_679" data-name="Grupo 679" transform="translate(0 116)">
+        <circle id="Elipse_23" data-name="Elipse 23" cx="18.5" cy="18.5" r="18.5" transform="translate(691 381)" fill="#5f9c87"/>
+      </g>
+      <path id="map-marker-alt-solid" d="M11.1,32.324C1.738,18.752,0,17.359,0,12.371a12.371,12.371,0,1,1,24.742,0c0,4.988-1.738,6.381-11.1,19.953A1.547,1.547,0,0,1,11.1,32.324Zm1.271-14.8a5.155,5.155,0,1,0-5.155-5.155A5.155,5.155,0,0,0,12.371,17.526Z" transform="translate(701.258 498)" fill="#187d67"/>
+      <path id="map-marker-alt-solid-2" data-name="map-marker-alt-solid" d="M10.3,29.986C1.612,17.4,0,16.1,0,11.476a11.476,11.476,0,0,1,22.953,0c0,4.627-1.612,5.919-10.3,18.51A1.435,1.435,0,0,1,10.3,29.986Zm1.179-13.728a4.782,4.782,0,1,0-4.782-4.782A4.782,4.782,0,0,0,11.476,16.258Z" transform="translate(703.672 498)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
